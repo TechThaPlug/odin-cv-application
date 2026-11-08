@@ -1,0 +1,78 @@
+.section {
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.section h2 {
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  border-bottom: 2px solid #3882f6;
+}
+
+.section p {
+  margin: 0 0 4px;
+}
+
+.display-main {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dates {
+  color: #6b7280;
+}
+
+.multiline {
+  margin-top: 8px;
+  white-space: pre-wrap;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+.field {
+  display: grid;
+  gap: 4px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3882f6;
+  box-shadow: 0 0 0 3px rgba(56, 130, 246, 0.25);
+}
+
+button {
+  justify-self: start;
+  margin-top: 8px;
+  padding: 10px 18px;
+  font-size: 15px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}

@@ -1,0 +1,12 @@
+.app {
+  display: grid;
+  gap: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.app h1 {
+  margin: 0;
+  text-align: center;
+}
